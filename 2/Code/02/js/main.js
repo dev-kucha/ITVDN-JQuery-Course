@@ -3,15 +3,15 @@ $(document).ready(function () {
     // $("#test").text("Selected all");
     // $(".card").text("Selected all");
     // $(".card, .card2").text("Selected all");
-    $("h1, #test, .card2").text("Selected all");
+    // $("h1, #test, .card2").text("Selected all");
     // $("div > span").text("Selected all");
     // $("div span").text("Selected all");
     // $("div + p").text("Selected all");
     // $("div ~ p").text("Selected all");
     // $("[class]").text("Selected all");
     // $("[id]").text("Selected all");
-    // $("a[href!='jQuery.html']").text("Selected all");
-    // $("a[href!='jQuery.html']").text("Selected all");
+    // $("a[href!='itvdn.html']").text("Selected all");
+    //$("a[href!='jQuery.html']").text("Selected all");
     // $("button[title^='btn']").text("Selected all");
     // $("button[title*='-btn-']").text("Selected all");
     // $("div p:first-child").text("Selected all");
@@ -37,7 +37,7 @@ $(document).ready(function () {
     // $(":checkbox").prop('checked', true);
     // $(":selected").text("jQuery");
     // $(":submit").text("jQuery");
-    // $(":disabled").text("Disabled");
+    $(":disabled").text("Disabled");
 
 
 });
